@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Author</title>
+</head>
+<body>
+<form action="addAuthor" method="post">
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input name="name" type="text" required="required" autofocus> </td>
+        </tr>
+        <tr>
+            <td>Nationality</td>
+            <td><select name="nationality" required="required">
+                <option value="hungarian">Hungarian</option>
+                <option value="British">British</option>
+                <option value="German">German</option>
+                <option value="China">China</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                bday
+            </td>
+            <td><input type="date" name="birthDate"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Add Author"></td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>

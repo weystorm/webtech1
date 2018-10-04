@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Author</title>
+</head>
+<body>
+<form action="addBook" method="post">
+    <table>
+        <tr>
+            <td>Title</td>
+            <td><input name="title" type="text" required="required"> </td>
+        </tr>
+        <tr>
+            <td>genre</td>
+            <td><select name="genre">
+                <option value="Scifi">Scifi</option>
+                <option value="valami">Alma</option>
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                quantity
+            </td>
+            <td><input type="number" name="quantity"></td>
+        </tr>
+        <tr>
+            <td>
+                available
+            </td>
+            <td><input type="number" name="available"></td>
+        </tr>
+        <tr>
+            <td>
+                publisher
+            </td>
+            <td><input type="email" name="publisher"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Add Book"></td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
