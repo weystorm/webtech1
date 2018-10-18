@@ -1,0 +1,57 @@
+#everything {
+    margin: auto;
+    width: 100%;
+}
+
+#menuName {
+    color: yellow;
+}
+
+body{
+    background-color: lightgreen;
+}
+
+#banner {
+    height: 160px;
+    background: black;
+    font-size: 70px;
+    color: mediumpurple;
+}
+
+#menuBar {
+    font-size: 17px;
+    float: right;
+    background: cadetblue;
+    maring-top: 50px;
+}
+
+#menuBar .menuButton {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 20px;
+    paddig: auto;
+    margin: 15px;
+}
+
+#menuBar .menuButton:HOVER {
+    background: black;
+    color: blue;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: crimson;
+}
+
+#form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 20px;
+}

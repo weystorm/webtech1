@@ -3,35 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <title>Add Author</title>
+    <link rel="stylesheet" type="text/css" href="css/authorform.css">
 </head>
 <body>
-<form action="addAuthor" method="post">
-    <table>
-        <tr>
-            <td>Name</td>
-            <td><input name="name" type="text" required="required" autofocus> </td>
-        </tr>
-        <tr>
-            <td>Nationality</td>
-            <td><select name="nationality" required="required">
-                <option value="hungarian">Hungarian</option>
-                <option value="British">British</option>
-                <option value="German">German</option>
-                <option value="China">China</option>
-            </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                bday
-            </td>
-            <td><input type="date" name="birthDate"></td>
-        </tr>
-        <tr>
-            <td><input type="submit" value="Add Author"></td>
-        </tr>
+    <div id="everything">
+        <div id="header">
+            <div id="banner">
+                <div id="menuBar">
+                    <span class="menuButton"><a href="index.html">Home</a></span>
+                    <span class="menuButton"><a href="authorform.html">Add Authors</a></span>
+                    <span class="menuButton"><a href="bookform.html">Bookform</a></span>
+                    <span class="menuButton"><a href="https://www.google.hu">asd</a></span>
+                </div>
+                Add Authors
+            </div>
+        </div>
+        <div id="form">
+            <form action="addAuthor" method="post">
+                <table>
+                    <div id="menuName">
+                        <tr>
+                            <td>Name</td>
+                            <td><input name="name" type="text" required="required" autofocus> </td>
+                        </tr>
+                    </div>
+                    <tr>
+                        <td>Nationality</td>
+                        <td><select name="nationality" required="required">
+                            <option value="hungarian">Hungarian</option>
+                            <option value="British">British</option>
+                            <option value="German">German</option>
+                            <option value="China">China</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            bday
+                        </td>
+                        <td><input type="date" name="birthDate"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Add Author"></td>
+                    </tr>
 
-    </table>
-</form>
+                </table>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

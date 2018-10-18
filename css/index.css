@@ -1,0 +1,58 @@
+.contentImage {
+    width: 300px;
+}
+body{
+    background-color: royalblue;
+}
+
+#everything {
+    margin: auto;
+    width: 100%;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:visited {
+    color: crimson;
+}
+
+#banner {
+    height: 160px;
+    background: black;
+    font-size: 70px;
+    color: orange;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.innerTable {
+    width: auto;
+}
+
+#menuBar {
+    font-size: 17px;
+    float: right;
+    background: orange;
+    maring-top: 50px;
+}
+
+#menuBar .menuButton {
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    paddig: auto;
+    margin: 15px;
+}
+
+#menuBar .menuButton:HOVER {
+    background: black;
+    color: white;
+}
+

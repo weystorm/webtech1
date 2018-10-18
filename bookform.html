@@ -3,45 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Add Author</title>
+    <link rel="stylesheet" type="text/css" href="css/bookform.css">
 </head>
 <body>
-<form action="addBook" method="post">
-    <table>
-        <tr>
-            <td>Title</td>
-            <td><input name="title" type="text" required="required"> </td>
-        </tr>
-        <tr>
-            <td>genre</td>
-            <td><select name="genre">
-                <option value="Scifi">Scifi</option>
-                <option value="valami">Alma</option>
-            </select>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                quantity
-            </td>
-            <td><input type="number" name="quantity"></td>
-        </tr>
-        <tr>
-            <td>
-                available
-            </td>
-            <td><input type="number" name="available"></td>
-        </tr>
-        <tr>
-            <td>
-                publisher
-            </td>
-            <td><input type="email" name="publisher"></td>
-        </tr>
-        <tr>
-            <td><input type="submit" value="Add Book"></td>
-        </tr>
+<div id="everything">
+    <div id="header">
+        <div id="banner">
+            <div id="menuBar">
+                <span class="menuButton"><a href="index.html">Home</a></span>
+                <span class="menuButton"><a href="authorform.html">Add Authors</a></span>
+                <span class="menuButton"><a href="bookform.html">Bookform</a></span>
+                <span class="menuButton"><a href="https://www.google.hu">asd</a></span>
+            </div>
+            Add Books
+        </div>
+    </div>
+    <div id="form">
+        <form action="addBook" method="post">
+            <table>
+                <tr>
+                    <td>Title</td>
+                    <td><input name="title" type="text" required="required"> </td>
+                </tr>
+                <tr>
+                    <td>genre</td>
+                    <td><select name="genre">
+                        <option value="Scifi">Scifi</option>
+                        <option value="valami">Alma</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        quantity
+                    </td>
+                    <td><input type="number" name="quantity"></td>
+                </tr>
+                <tr>
+                    <td>
+                        available
+                    </td>
+                    <td><input type="number" name="available"></td>
+                </tr>
+                <tr>
+                    <td>
+                        publisher
+                    </td>
+                    <td><input type="email" name="publisher"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Add Book"></td>
+                </tr>
 
-    </table>
-</form>
+            </table>
+        </form>
+    </div>
+</div>
 </body>
 </html>
